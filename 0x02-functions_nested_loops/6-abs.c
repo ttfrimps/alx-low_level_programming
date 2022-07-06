@@ -3,11 +3,11 @@
 /**
  * main - compute absolute value of integer
  * @n: parameter
- * Return: absoolute value of number
+ * Return: absolute value of number
  */
-int _abs(int n)
+int _abs(int r)
 {
-	if (n < 0)
-		n = -n;
-	return (n);
+	if (r < 0)
+		r = -r;
+	return (r);
 }
