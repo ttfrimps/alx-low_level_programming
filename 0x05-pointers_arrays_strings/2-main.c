@@ -6,13 +6,18 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int main()
 {
-	char *str;
+	char *x = Hello World";
+	char *s = &x;
+
 	int len;
 
-	str = "My first strlen!";
-	len = _strlen(str);
-	printf("%d\n", len);
+	for(; *s != '\0' ; s++)
+	{
+		len +=1;
+		s++;
+	}
+	printf("%d\n", strlen(x));
 	return (0);
 }
